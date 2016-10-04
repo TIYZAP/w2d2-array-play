@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Array Play</title>
+  </head>
+  <body>
+
+    <h1>Ruby Class Roster</h1>
+<ul>
+  <% our_class.each do |roster| %>
+  <li><%= roster %></li>
+  <%end%>
+</ul>
+
+    <h1>Students whose first name is less than 5 characters</h1>
+<ul>
+  <% less_than_5.each do |name| %>
+  <li><%= name %></li>
+  <%end%>
+</ul>
+
+  <h1>Four Characters Long</h1>
+<ul>
+  <% four_characters.each do |words| %>
+  <li><%= words %></li>
+  <%end%>
+</ul>
+
+  <h1>Movies Budgets less than 100</h1>
+  <ul>
+    <% movies_100.each do |movies| %>
+    <li><%= movies %></li>
+    <%end%>
+  </ul>
+
+  <h1>Movies Starring Leonardo DiCaprio</h1>
+    <ul>
+      <% starred_leo.each do |starring| %>
+      <li><%= starring %></li>
+      <%end%>
+    </ul>
+
+  </body>
+</html>
